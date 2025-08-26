@@ -2,16 +2,53 @@ body {
   margin: 0;
   padding: 0;
 }
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px;
+}
+ul {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  height: 50px;
+}
+li {
+  display: inline-block;
+  margin: 5px 10px;
+  padding: 14.6px 20px;
+  font-size: 20px;
+  background-color: white;
+}
+img#logo-img, #logo {
+  vertical-align: middle;
+  padding: 0 0;
+  width: 50px;
+  height: 50px;
+}
+a {
+  color: black; 
+  text-decoration: none;
+}
+a.visited {color: black; text-decoration: none;}
+a:hover {color: black; text-decoration: none;}
+a:focus {color: black; text-decoration: none;}
+a:hover a:active {color: black; text-decoration: none;}
 
 .title {
   text-align: center;
 }
 
-#hero {
+#home {
+  margin: 50px 50px;
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
-.hero-grid {
+.home-grid {
   justify-content: center;
   align-items: center;
   margin: 50px 50px;
