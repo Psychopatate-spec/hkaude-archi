@@ -8,8 +8,8 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <li id="logo"><img id="logo-img" src="assets/logo.jpg" alt="HKaude Architecture Logo."></li>
+        <ul id="navbar">
+          <li id="logo"><img id="logo-img" src="assets/images/logo.jpg" alt="HKaude Architecture Logo."></li>
           <li id="home-link"><a href="#home">Home</a></li>
           <li id="about-link"><a href="#about">About</a></li>
           <li id="projects-link"><a href="#projects">Projects</a></li>
@@ -19,15 +19,24 @@
     </header>
     <main>
       <div id="home">
-        <div class="home-grid"><h1>HKaude Architecture</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque soluta, nulla ipsam dolorem, officiis impedit dolorum, iste magnam cumque sunt vero. Nostrum quam neque magnam blanditiis! Pariatur, inventore dolores. Dolor.</p></div> 
         <div class="home-grid">
-          <img src="assets/hicham-khotbi.jpg" alt="Photo de l'architecte Hicham Khotbi, fondateur de HKaude Architecture.">
+          <h1>HKaude Architecture</h1>
+          <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque soluta, nulla ipsam dolorem, officiis impedit dolorum, iste magnam cumque sunt vero. Nostrum quam neque magnam blanditiis! Pariatur, inventore dolores. Dolor.
+          </p>
+        </div> 
+        <div class="home-grid">
+          <img 
+            src="assets/images/hicham-khotbi.jpg" 
+            alt="Photo de l'architecte Hicham Khotbi, fondateur de HKaude Architecture."
+          />
         </div>
       </div>
       <div id="about">
         <h2 class="title">A propos</h2>
-        <p id="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corporis, nemo sint alias ipsa distinctio quibusdam corrupti repudiandae? Dolorem molestiae maiores ut rem debitis nobis fugit incidunt quod, sequi voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi nulla minima, numquam non quos repudiandae perferendis quam! Dignissimos iste harum consectetur. Explicabo omnis eos beatae voluptate cumque quis nulla provident.</p>
+        <p id="about-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corporis, nemo sint alias ipsa distinctio quibusdam corrupti repudiandae? Dolorem molestiae maiores ut rem debitis nobis fugit incidunt quod, sequi voluptatum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi nulla minima, numquam non quos repudiandae perferendis quam! Dignissimos iste harum consectetur. Explicabo omnis eos beatae voluptate cumque quis nulla provident.
+        </p>
       </div>
       <div id="projects">
         <h2 class="title">Projets</h2>
@@ -47,23 +56,26 @@
       </div>
       <div id="contact">
         <h2 class="title">Contact</h2>
-        <p id="contact-text">Envoyez-nous un message et nous vous répondrons dans les plus brefs délais :</p>
-        <form>
-          <label for="name">Nom</label>
-          <input type="text" id="name" name="name" placeholder="Votre nom">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" placeholder="Votre email">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Votre message"></textarea>
-          <input type="submit" value="Envoyer">
-        </form>
+        <div id="contact-grid">
+          <div class="contact-card">
+            <p class="contact-text">Envoyez-nous un message et nous vous répondrons dans les plus brefs délais :</p>
+            <form>
+              <label for="name">Nom</label>
+              <input type="text" id="name" name="name" placeholder="Votre nom">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Votre email">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Votre message"></textarea>
+              <input type="submit" value="Envoyer">
+            </form>
+          </div>
+          <div class="contact-card">
+            <p class="contact-text">Ou scannez le QR code pour nous contacter :</p>
+            <img src="assets/images/qr-code.png" alt="QR code de contact">
+          </div>
+        </div>   
       </div>
     </main>
-    <footer> 
-      <address>
-
-      </address>
-    </footer>
     <script src="app.js"></script>
   </body>
 </html>
