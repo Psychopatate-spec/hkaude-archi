@@ -1,7 +1,11 @@
+/* styles.css */
+
 body {
   margin: 0;
   padding: 0;
 }
+
+/* Header */
 nav {
   position: fixed;
   top: 0;
@@ -15,13 +19,15 @@ ul {
   display: inline;
   list-style-type: none;
   margin: 0;
-  height: 50px;
 }
 li {
   display: inline-block;
+  vertical-align: middle;
+  width: min(100px, 10vw);
   margin: 5px 10px;
-  padding: 14.6px 20px;
+  padding: 13.8px 20px;
   font-size: 20px;
+  text-align: center;
   background-color: white;
 }
 img#logo-img, #logo {
@@ -39,6 +45,8 @@ a:hover {color: black; text-decoration: none;}
 a:focus {color: black; text-decoration: none;}
 a:hover a:active {color: black; text-decoration: none;}
 
+/* Main */
+/* Home */
 .title {
   text-align: center;
 }
@@ -53,13 +61,13 @@ a:hover a:active {color: black; text-decoration: none;}
   align-items: center;
   margin: 50px 50px;
 }
-
+/* About */
 #about-text {
   text-align: center;
   padding: 0 50px;
   margin: 0 50px;
 }
-
+/* Projects */
 #projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 350px);
