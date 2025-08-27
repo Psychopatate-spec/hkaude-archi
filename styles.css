@@ -27,6 +27,8 @@ ul#navbar {
   width: min(100px, 10vw);
   margin: 5px 10px;
   padding: 13.8px 20px;
+  border: none;
+  border-radius: 5px;
   font-size: 20px;
   text-align: center;
   background-color: white;
@@ -41,6 +43,8 @@ img#logo-img, #logo {
   padding: 0 0 !important;
   width: 50px !important;
   height: 50px !important;
+  border: none;
+  border-radius: 5px;
 }
 #navbar li a {
   color: black; 
@@ -55,28 +59,37 @@ img#logo-img, #logo {
 main {
   background-color: white;
 }
-/* Home */
 .title {
   text-align: center;
 }
 
+/* Home */
 #home {
-  margin: 50px 50px;
+  margin: 0;
+  padding: 150px 100px;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  background-color: lightskyblue;
 }
 .home-grid {
   justify-content: center;
   align-items: center;
   margin: 50px 50px;
 }
+#hicham-khotbi-img {
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  margin: 0 50px;
+  width: 20vw;
+}
 
 /* About */
 #about {
-  background-color: gray;
   color: white;
-  padding: 100px 150px;
+  padding: 150px 100px;
   margin: 0;
+  background-color: burlywood;
 }
 #about-text {
   text-align: center;
@@ -86,11 +99,14 @@ main {
 }
 
 /* Projects */
+#projects {
+  background-color: lightgray;
+  padding: 150px 100px;
+}
 #projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 350px);
-  justify-content: center;
-  background-color: gray;
+  justify-content: center;;
 }
 .card {
   justify-content: center;
@@ -106,7 +122,9 @@ main {
 
 /* Contact */
 #contact {
-  margin: 50px 50px;
+  margin: 0;
+  padding: 150px 100px;
+  background-color: lightseagreen;
 }
 #contact-grid {
   display: grid;
