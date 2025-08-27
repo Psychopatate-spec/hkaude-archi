@@ -14,7 +14,7 @@ This repository contains resources and documentation for the HKaude architecture
 
 1. Clone the repository:
   ```bash
-  git clone https://github.com/yourusername/HKaude-Archi.git
+  git clone https://github.com/Psychopatate-spec/hkaude-archi.git
   ```
 2. Open `index.html` in your browser.
 
@@ -22,8 +22,10 @@ This repository contains resources and documentation for the HKaude architecture
 
 ```
 ├── assets/
-│   ├── hkaude-logo.png
-│   ├── logo.png
+    ├── images/
+        ├── logo.jpg
+        ├── hicham-khotbi.jpg
+        └── qr-code.png
 ├── index.html
 ├── styles.css
 ├── app.js
